@@ -18,5 +18,8 @@
   "homepage": "https://github.com/danmakenoise/composite-react#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3"
   }
 }
