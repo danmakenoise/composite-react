@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/danmakenoise/composite-react#readme",
   "dependencies": {
+    "composite-ui": "file:../composite-ui",
     "express": "^4.16.4"
   },
   "devDependencies": {
