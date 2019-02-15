@@ -8,7 +8,8 @@
     "build:app": "parcel build ./src/App/index.tsx --out-dir public --out-file bundle.js",
     "build:server": "tsc",
     "lint": "tslint -c ./tslint.json 'src/**/*.ts'",
-    "start": "ts-node ./src/server/start.ts"
+    "start": "ts-node ./src/server/start.ts",
+    "start:dev": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
