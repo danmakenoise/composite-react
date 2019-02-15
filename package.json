@@ -4,8 +4,9 @@
   "description": "a toolkit for building UI using your React component library",
   "main": "index.js",
   "scripts": {
-    "build:server": "tsc",
+    "build": "npm run build:server && npm run build:app",
     "build:app": "parcel build ./src/App/index.tsx --out-dir public --out-file bundle.js",
+    "build:server": "tsc",
     "lint": "tslint -c ./tslint.json 'src/**/*.ts'",
     "start": "ts-node ./src/server/start.ts"
   },
