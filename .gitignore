@@ -1,2 +1,5 @@
+.cache
+bundle.js
+bundle.map
 dist
 node_modules
