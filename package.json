@@ -4,6 +4,7 @@
   "description": "a toolkit for building UI using your React component library",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "lint": "tslint -c ./tslint.json 'src/**/*.ts'",
     "start": "ts-node ./src/server/start.ts"
   },
@@ -29,5 +30,8 @@
     "tslint-config-standard": "^8.0.1",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.3.3"
+  },
+  "bin": {
+    "composite": "./bin/composite.js"
   }
 }
