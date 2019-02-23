@@ -1,4 +1,6 @@
 .cache
+componentBundle.js
+componentBundle.map
 bundle.js
 bundle.map
 dist
