@@ -6,6 +6,7 @@
     "tslint-config-prettier"
   ],
   "rules": {
+    "no-empty": false,
     "prettier": [true, {
       "singleQuote": true,
       "trailingComma": "all"
