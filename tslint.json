@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-standard",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "no-empty": false,
+    "prettier": [true, {
+      "singleQuote": true,
+      "trailingComma": "all"
+    }]
+  }
+}
